@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+section{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+#output{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+    font-size: 40px;
+
+}
+
+.btn{
+    height: 72px;
+    flex-basis: calc(25% - 10px);
+    margin: 5px;
+    border-radius: 25px;
+    font-size: 32px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 300;
+    color: white;
+}
+
+.light, .light:focus{
+    background-color: #4e505f;
+}
+
+.light:hover{
+    background-color: #8890a5;
+}
+
+
+.blue, .blue:focus{
+    background-color: #4b5efc;
+}
+
+.blue:hover{
+    background-color: #798bf9;
+}
+
+
+
+.dark, .dark:focus{
+    background-color: #2e2f38;
+}
+
+.dark:hover{
+    background-color: #505266;
+}
